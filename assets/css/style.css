@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+.sombra{
+    color: #fff;
+    box-shadow: 2px 3px 10px greenyellow;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.proyecto {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 200px;
+}
+
+.fondoCarta {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1e2326;
+    color: #fff;
+}
+.api{
+    background-image: url(../img/contact_bg.png);
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.fondoContacto {
+    background-color: #1CB698;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5vw 4vw; /* Unidades relativas para padding */
+}
+
+.inicio {
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(../img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner {
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.inicio .contenido-banner img {
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+
+.inicio .contenido-banner h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.inicio .contenido-banner .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.img-carrusel {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sobremi {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobremi .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobremi .contenido-seccion p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobremi .contenido-seccion p span {
+    color: #1CB698;
+    font-weight: bold;
+}
+
+.sobremi .fila {
+    display: flex;
+    flex-wrap: wrap; /* Flex-wrap to ensure columns stack on smaller screens */
+}
+
+.sobremi .fila .col {
+    width: 100%; /* Full width by default */
+}
+
+.sobremi .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.sobremi .fila .col ul {
+    list-style: none;
+}
+
+.sobremi .fila .col ul li {
+    margin: 12px 0;
+}
+
+.sobremi .fila .col ul li strong {
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+
+.sobremi .fila .col ul li span {
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* SECCION S K I L L S */
+.skills {
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.skills .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skills .fila {
+    display: flex;
+    flex-wrap: wrap; /* Flex-wrap to ensure columns stack on smaller screens */
+}
+
+.skills .fila .col {
+    width: 100%; /* Full width by default */
+    padding: 0 20px;
+}
+
+.skills .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.skills .skill > span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skills .skill .barra-skill {
+    height: 8px;
+    width: 100%; /* Full width by default */
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .skill .progreso {
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+
+.skills .skill .barra-skill span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+/* Media Queries para diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+    .fondoContacto {
+        padding: 4vw 3vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .fondoContacto {
+        padding: 3vw 2vw;
+    }
+    .proyecto {
+        padding: 40px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fondoContacto {
+        padding: 2vw 1.5vw;
+    }
+    .inicio .contenido-banner {
+        max-width: 90%;
+    }
+    footer {
+        padding: 50px 10px 30px 10px;
+    }
+    footer .redes a {
+        margin: 20px 5px;
+    }
+    .contacto {
+        padding: 50px 20px;
+    }
+    .sobremi .fila .col,
+    .skills .fila .col {
+        width: 100%; /* Full width for columns on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .fondoContacto {
+        padding: 5vh 2vw;
+    }
+    .inicio .contenido-banner {
+        padding: 20px;
+    }
+    .proyecto {
+        padding: 30px 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/* Clases para animaciones de skills */
+.skills .skill .javascript {
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+    0% { width: 0%; }
+    100% { width: 75%; }
+}
+
+.skills .skill .htmlcss {
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss {
+    0% { width: 0%; }
+    100% { width: 89%; }
+}
+
+.skills .skill .photoshop {
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+
+@keyframes photoshop {
+    0% { width: 0%; }
+    100% { width: 95%; }
+}
+
+.skills .skill .wordpress {
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+
+@keyframes wordpress {
+    0% { width: 0%; }
+    100% { width: 81%; }
+}
+
+.skills .skill .drupal {
+    width: 0%;
+    animation: 2s drupal forwards;
+}
+
+@keyframes drupal {
+    0% { width: 0%; }
+    100% { width: 55%; }
+}
+
+.skills .skill .comunicacion {
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+    0% { width: 0%; }
+    100% { width: 80%; }
+}
+
+.skills .skill .trabajo {
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+
+@keyframes trabajo {
+    0% { width: 0%; }
+    100% { width: 70%; }
+}
+
+.skills .skill .creatividad {
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+
+@keyframes creatividad {
+    0% { width: 0%; }
+    100% { width: 99%; }
+}
+
+.skills .skill .dedicacion {
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+    0% { width: 0%; }
+    100% { width: 65%; }
+}
+
+.skills .skill .proyect {
+    width: 0%;
+    animation: 2s proyect forwards;
+}
+
+@keyframes proyect {
+    0% { width: 0%; }
+    100% { width: 94%; }
+}
